@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Frontend Mentor | NFT preview card component</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style/style.css" />
+  </head>
+
+  <body>
+    <!--This is the main div, which seperates box from body-->
+    <div class="main">
+      <!--This div is for 2 images, one is equlibrium photo, and the last one is eye, 
+          which should appear after mouse touch-->
+      <div class="top">
+        <img
+          class="equilibrium"
+          src="./images/image-equilibrium.jpg"
+          alt="equilibrium image"
+        />
+        <div class="eye-div">
+          <img class="eye" src="./images/icon-view.svg" alt="icon-view" />
+        </div>
+        <div class="background"></div>
+      </div>
+
+      <!--This is the main heading and paragraph-->
+      <h1>Equilibrium #3429</h1>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+
+      <!--This is the middle(main) div, which divides into 2 seperate divs-->
+      <div class="middle">
+        <!--This is the middle-left part-->
+        <div class="middle-left">
+          <img src="./images/icon-ethereum.svg" alt="etherium image" />
+          <span>0.041 ETH</span>
+        </div>
+        <!--This is middle-right part-->
+        <div class="middle-right">
+          <img src="./images/icon-clock.svg" alt="clock image" />
+          <span>3 days left</span>
+        </div>
+      </div>
+
+      <!--This is for last, bottom part of card- img, and two paragraphs-->
+      <div class="bottom">
+        <img
+          class="inventor"
+          src="./images/image-avatar.png"
+          alt="inventor image"
+        />
+        <span class="creation">Creation of</span>
+        <span class="creator">Jules Wyvern</span>
+      </div>
+    </div>
+  </body>
+</html>
